@@ -38,6 +38,8 @@ Person.prototype.bio = function(){
  
 }
       
+        
+
     // Step 01 First define a string, and make it equal to the part of
     // the bio that we know will always be the same.
     // first name, lastname and age:
