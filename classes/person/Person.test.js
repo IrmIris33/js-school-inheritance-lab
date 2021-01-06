@@ -10,19 +10,3 @@ test("What is your name?", () => {
     expect(actual).toEqual(expected);
 });
 
-test("Greeting" , () => {
-    let person = new Person("Bobby", "Digital", 51, "M", "Making Phat Beats");
-    let expected = "Hi, my name is Bobby";
-    let actual = person.greeting();
-    expect(actual).toEqual(expected);
-});
-
-test("Bio" , () => {
-    let person = new Person("Bobby", "Digital", 51, "M", ["Making Phat Beats", "Ill Rhymes"]);
-
-    let expected = "This persons is name is Bobby Digital and I am 51 years old.   He likes making Phat beats, and Ill Rhymes";
-    
-    let actual = person.bio();
-
-    expect(actual).toEqual(expected);
-});
